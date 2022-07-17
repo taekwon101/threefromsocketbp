@@ -1,0 +1,5 @@
+ - sending client user id with socket emit event (will socket.id always send correct value?)
+ - emitting three.js movement from server to all clients
+ - adding three.js elements on new socket connections, assigning them to socket IDs, and deleting them on disconnects (game.update in other)
+  - making a serverside array to correspond status (three element, position, health, velocity, etc.) with socket IDs
+ - emitting three.js movement specific to one three.js element that corresponds to the socket id emitting the command
